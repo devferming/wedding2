@@ -1,6 +1,23 @@
+import { useEffect } from 'react';
 import './styles/Header.css'
 
 const Header = () => {
+
+  useEffect(() => {
+    const audio = document.querySelector('#audio');
+    const playAudio = () => {
+      if (audio) {
+        audio.play().catch((err) => console.error('Error al reproducir el audio:', err));
+      }
+    };
+
+    window.addEventListener('click', playAudio);
+    return () => {
+      window.removeEventListener('click', playAudio);
+    };
+  }, []);
+
+
   return (
     <header className='header'>
       <video className='header__bg' src="/videos/vid001.webm" autoPlay loop muted playsInline />

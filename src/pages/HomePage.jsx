@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom'
 import MainMenu from '../components/shared/MainMenu'
 import ButtonUp from '../components/shared/ButtonUp'
 import Gallery from '../components/HomePage/Gallery'
+import LockScreen from '../components/HomePage/LockScreen'
 
 const HomePage = () => {
 
@@ -33,6 +34,7 @@ const HomePage = () => {
 
   return (
     <>
+      <LockScreen id={id}/>
       <MainMenu scrolled={scrolled} />
       <Header />
       <Invitation id={id} />

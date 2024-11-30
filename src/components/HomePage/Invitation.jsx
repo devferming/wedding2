@@ -34,7 +34,7 @@ const Invitation = ({ id }) => {
               Con profunda emoción, {invitationPart3} a acompañarnos este 27 de diciembre de 2024 en el <strong>Club Caney Don Diego</strong>, donde juntos daremos inicio a esta nueva y hermosa etapa, rodeados de aquellos que han sido parte esencial de nuestro viaje.
             </p>
             <p className='invitation__article__p'>
-              {invitationPart4} en este día tan especial será un regalo que atesoraremos por siempre.
+              {invitationPart4} en este día tan especial será un regalo que atesoraremos por siempre, más si algo nos quieren obsequiar en divisa, lo sabremos apreciar.
             </p>
             <p className='invitation__article__p'>
               Con todo nuestro cariño,

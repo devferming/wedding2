@@ -42,6 +42,7 @@ export const guests = {
  41:["Luis Astudillo","Querido",2,1],
  42:["Francia Parra","Amada",3,1],
  43:["SUNEP Miranda","Queridos",4,1],
- 44:["Pastores Juan y Pedro","Queridos",2,1],
+ 44:["Pastores Yannys y José","Queridos",2,2],
+ 45:["Adonay Martínez","Estimado",2,1],
 }
 
