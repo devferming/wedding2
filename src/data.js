@@ -44,5 +44,8 @@ export const guests = {
  43:["SUNEP Miranda","Queridos",4,1],
  44:["Pastores Yannys y José","Queridos",2,2],
  45:["Adonay Martínez","Estimado",2,1],
+ 46:["Willian Rodríguez","Estimado",2,1],
+ 47:["Deny Figueroa","Estimado",2,1],
+ 48:["Reinaldo Palacios","Estimado",2,1],
 }
 
